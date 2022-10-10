@@ -58,7 +58,7 @@ align-items: center;
 justify-content: center;
 
 p{
-    //font-family: 'Roboto';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Filmes from "./Filmes.js"
 import Sessoes from "./Sessoes.js";
 import Assentos from "./Assentos.js";
+import Sucesso from "./Sucesso.js";
 export default function App() {
     return (
         <BrowserRouter>
@@ -13,6 +14,7 @@ export default function App() {
             <Route path="/" element={<Filmes/>} />
             <Route path="/sessoes/:idSessoes" element={<Sessoes/>} />
             <Route path="/assentos/:idAssentos" element={<Assentos/>} />
+            <Route path="/sucesso" element={<Sucesso/>} />
             </Routes>
         </BrowserRouter>
     );
@@ -28,9 +30,10 @@ justify-content: center;
 align-items: center;
 background-color: #C3CFD9;
 
+
 p{
     color: #E8833A;
-    //font-family: 'Roboto';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
